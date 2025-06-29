@@ -5,7 +5,7 @@ import Cursor from "../app/Navbar/Cursor"
 
 export const metadata: Metadata = {
   title: "Moderna Navbar",
-  description: "Exemplo brutal com Tailwind 4 e shadcn"
+  description: "Exemplo com Tailwind 4 e shadcn"
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

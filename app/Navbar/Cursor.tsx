@@ -20,8 +20,8 @@ export default function Cursor(){
             cursor.classList.add("bg-teal-400","scale-150")
         }
         document.addEventListener("mousemove", move)
-        // document.addEventListener("mouseenter", enter)
-        // document.addEventListener("mouseleave", leave)
+        // document.addEventListener("mouseenter", enter) teste com cursor no men
+        // document.addEventListener("mouseleave", leave) teste do cursor no men
         const hoverables = document.querySelectorAll("a, button, .hover-target")
         hoverables.forEach((el)=>{
             el.addEventListener("mouseenter", enter)
@@ -41,6 +41,6 @@ export default function Cursor(){
             <div
             ref={cursorRef}
             className="pointer-events-none fixed top-0 left-0 w-4 h-4 rounded-full bg-white transition-all duration-200 mix-blend-difference z-[9999]"
-          />
+          /> //validação do cursor com o mouse
         )
 }
